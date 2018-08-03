@@ -9,7 +9,7 @@ const htmlPlugin = new HtmlWebPackPlugin({
 const errorOverlayPlugin = new ErrorOverlayPlugin();
 
 module.exports = {
-  entry: "./src/index.jsx",
+  entry: "./src/index.js",
   devtool: "source-map",
   resolve: {
     extensions: [".js", ".jsx"]
