@@ -1,5 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import GoogleMapView from "./googlemap/GoogleMapView";
 
-ReactDOM.render(<GoogleMapView />, document.getElementById("index"));
+ReactDOM.render(
+  <div>
+    <h1>hello React</h1>
+  </div>,
+  document.getElementById("index")
+);
