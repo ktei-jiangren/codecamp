@@ -1,11 +1,16 @@
 {
   "parser": "babel-eslint",
   "extends": ["standard", "standard-react", "prettier"],
+<<<<<<< HEAD
   "rules": {
     "react/prop-types": 0
   },
   "globals": {
     "google": true,
     "$": true
+=======
+  "env": {
+    "browser": true
+>>>>>>> b02fce5a5179e3bfe558428cee5b4191eded607e
   }
 }
