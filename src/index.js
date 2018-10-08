@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Clock from "./clock/Clock";
+import WorldClock from "./clock/WorldClock";
 
-ReactDOM.render(<Clock />, document.getElementById("index"));
+ReactDOM.render(
+  <WorldClock city="new york" />,
+  document.getElementById("index")
+);
