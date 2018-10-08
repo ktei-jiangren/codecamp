@@ -1,6 +1,9 @@
 {
   "parser": "babel-eslint",
   "extends": ["standard", "standard-react", "prettier"],
+  "rules": {
+    "react/prop-types": 0
+  },
   "globals": {
     "google": true,
     "$": true

@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import GoogleMapView from "./googlemap/GoogleMapView";
+import Clock from "./clock/Clock";
 
-ReactDOM.render(<GoogleMapView />, document.getElementById("index"));
+ReactDOM.render(<Clock />, document.getElementById("index"));
