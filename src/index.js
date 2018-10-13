@@ -1,8 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import WorldClock from "./clock/WorldClock";
+import TodoApp from "./todoapp/App";
 
-ReactDOM.render(
-  <WorldClock city="new york" />,
-  document.getElementById("index")
-);
+ReactDOM.render(<TodoApp />, document.getElementById("index"));
