@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import TodoApp from "./todoapp/App";
+import CdnjsSearch from "./cdnjs/CdnjsSearch";
 
-ReactDOM.render(<TodoApp />, document.getElementById("index"));
+ReactDOM.render(<CdnjsSearch />, document.getElementById("index"));
