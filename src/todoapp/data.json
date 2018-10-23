@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Buy milk",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "name": "Do homework",
+      "completed": false
+    }
+  ]
+}
