@@ -21,8 +21,7 @@ class Example extends React.Component {
   constructor() {
     super();
     this.state = {
-      searchText: "",
-      posts: []
+      searchText: ""
     };
   }
 

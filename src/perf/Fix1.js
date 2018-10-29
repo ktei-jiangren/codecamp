@@ -20,8 +20,7 @@ class Example extends React.Component {
   constructor() {
     super();
     this.state = {
-      searchText: "",
-      posts: []
+      searchText: ""
     };
   }
 
@@ -46,8 +45,6 @@ class Example extends React.Component {
   };
 
   render() {
-    // const { posts } = this.props;
-    // const topTen = [...posts].sort((a, b) => b.likes - a.likes).slice(0, 10);
     return (
       <div>
         <input
