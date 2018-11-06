@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Example from "./immutable/Example";
+import MouseTracker from "./mousetracker/MouseTracker";
 
-ReactDOM.render(<Example />, document.getElementById("index"));
+ReactDOM.render(<MouseTracker />, document.getElementById("index"));
